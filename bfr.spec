@@ -11,6 +11,7 @@ Source:		%{name}-%{version}.tar.bz2
 URL:		http://www.glines.org:8000/software/buffer.html
 License:	GPL
 Group:		System/Kernel and hardware
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Buffer is a general-purpose command-line pipe buffer. It buffers data from
