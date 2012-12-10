@@ -58,3 +58,37 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/bfr.1.*
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.6-7mdv2011.0
++ Revision: 616747
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 1.6-6mdv2010.0
++ Revision: 424032
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.6-5mdv2009.0
++ Revision: 243212
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 1.6-3mdv2008.1
++ Revision: 135828
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Feb 08 2007 Stefan van der Eijk <stefan@mandriva.org> 1.6-3mdv2007.0
++ Revision: 118197
+- rebuild
+- Import bfr
+
+* Tue Nov 08 2005 Austin Acton <austin@mandriva.org> 1.6-2mdk
+- Rebuild
+
+* Sat Apr 03 2004 Austin Acton <austin@mandrake.org> 1.6-1mdk
+- 1.6
+
