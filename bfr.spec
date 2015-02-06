@@ -1,6 +1,6 @@
 %define name	bfr
 %define version	1.6
-%define release %mkrel 7
+%define release 8
 
 Name: 	 	%{name}
 Summary: 	General-purpose command-line pipe buffer
