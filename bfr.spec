@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		%{name}-%{version}.tar.bz2
-URL:		http://www.glines.org:8000/software/buffer.html
+URL:		https://www.glines.org:8000/software/buffer.html
 License:	GPL
 Group:		System/Kernel and hardware
 BuildRoot:	%{_tmppath}/%{name}-buildroot
