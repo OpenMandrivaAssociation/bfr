@@ -13,6 +13,11 @@ License:	GPL
 Group:		System/Kernel and hardware
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Buffer is a general-purpose command-line pipe buffer. It buffers data from
 stdin and sends it to stdout, adjusting to best fit the pace stdout can
